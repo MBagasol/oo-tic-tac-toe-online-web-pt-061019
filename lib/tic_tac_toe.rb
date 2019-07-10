@@ -99,7 +99,7 @@ class TicTacToe
    if !over?
     turn 
    end
-   elsif won?
+   if won?
     winner
     elsif draw
    end
