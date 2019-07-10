@@ -64,12 +64,12 @@ class TicTacToe
   end
   
   def won? 
-    if !WIN_COMBINATIONS
+    if WIN_COMBINATIONS
       false 
     else
       true 
     end
-    WIN_COMBINATIONS
+    !WIN_COMBINATIONS
   end
   
   def full? 
