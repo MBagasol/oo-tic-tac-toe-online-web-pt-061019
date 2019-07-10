@@ -64,11 +64,7 @@ class TicTacToe
   end
   
   def won? 
-    if WIN_COMBINATIONS.detect
-      true 
-    else
-      false 
-    end
+  
     
     
   end
