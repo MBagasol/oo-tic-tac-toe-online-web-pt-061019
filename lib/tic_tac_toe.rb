@@ -101,7 +101,7 @@ class TicTacToe
    end
    
    if won? 
-     "Congratulations #{winner}!"
+     "Congratulations #{winner}!" if won?
    else 
      "Cat's game!"
    end
