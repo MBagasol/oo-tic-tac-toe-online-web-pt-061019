@@ -98,6 +98,7 @@ class TicTacToe
   def play 
    if !over?
     turn 
+   end
    elsif won?
     winner
     elsif draw
