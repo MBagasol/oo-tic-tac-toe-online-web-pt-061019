@@ -64,7 +64,7 @@ class TicTacToe
   end
   
   def won? 
-    WIN_COMBINATIONS.collect do |winner|
+    WIN_COMBINATIONS.detect do |winner|
       
     
     
