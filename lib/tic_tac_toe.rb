@@ -105,7 +105,6 @@ class TicTacToe
    else 
      puts "Cat's game!"
    end
-   
  end
   
   
