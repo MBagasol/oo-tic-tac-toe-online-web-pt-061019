@@ -69,7 +69,7 @@ class TicTacToe
     else
       false 
     end
-    WIN_COMBINATIONS
+    
   end
   
   def full? 
