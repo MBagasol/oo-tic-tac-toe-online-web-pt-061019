@@ -69,7 +69,7 @@ class TicTacToe
     else
       false 
     end
-    won?.to_a
+    
     
   end
   
