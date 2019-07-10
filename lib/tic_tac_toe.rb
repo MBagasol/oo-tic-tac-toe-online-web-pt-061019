@@ -96,7 +96,7 @@ class TicTacToe
   end 
   
   def play 
-   if  over?
+   if over?
     turn 
    end
  end
