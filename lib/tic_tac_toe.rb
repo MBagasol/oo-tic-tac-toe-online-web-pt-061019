@@ -100,6 +100,12 @@ class TicTacToe
     turn 
    end
    
+   if winner 
+     "Congratulations #{winner}!"
+   else 
+     "Cat's game!"
+   end
+   
  end
   
   
