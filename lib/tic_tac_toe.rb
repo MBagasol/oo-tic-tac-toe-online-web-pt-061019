@@ -100,6 +100,7 @@ class TicTacToe
     turn 
    elsif won?
     winner
+    elsif draw
    end
  end
   
