@@ -97,7 +97,7 @@ class TicTacToe
   
   def play 
     if !over?
-      turn 
+      return turn 
     end
   
 end 
