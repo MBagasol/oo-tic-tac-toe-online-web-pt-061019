@@ -72,7 +72,7 @@ class TicTacToe
   end
   
   def full? 
-    @board.all?(character == "X" || character == "O")
+    @board.all?{|token|token == "X" || token == "O"}
   end
   
   def draw?
