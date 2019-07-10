@@ -100,7 +100,7 @@ class TicTacToe
     turn 
    end
    
-   if winner 
+   if won? 
      "Congratulations #{winner}!"
    else 
      "Cat's game!"
