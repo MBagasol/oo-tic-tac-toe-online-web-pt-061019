@@ -90,14 +90,16 @@ class TicTacToe
   end
   
   def winner
-    if winner = won?
-      @winning_player = @board[winner.first]
+    if win = won?
+      @winning_player = @board[win.first]
     end
   end 
   
   def play 
    if !over?
     turn 
+   elsif won?
+    winner
    end
  end
   
